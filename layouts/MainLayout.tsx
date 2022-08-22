@@ -1,11 +1,7 @@
+import { ContentContainer } from "../components/ContentContainer";
+
 const MainLayout = () => {
-  return (
-    <div>
-      <div>Home</div>
-      <div>Sidebar</div>
-      <div>Footer</div>
-    </div>
-  );
+  return <ContentContainer></ContentContainer>;
 };
 
 export default MainLayout;
